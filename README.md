@@ -3,5 +3,6 @@
 - saves any ip's found paired with a port to a text file
 
 # How to use
-- Run '''pip install -r requirements.txt'''
-- Then run '''python main.py'''
+- Set your timeout, threads, and ip's to generate in the IoTScanner params. (line 43)
+- Run "pip install -r requirements.txt"
+- Run "python main.py"
