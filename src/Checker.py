@@ -20,7 +20,7 @@ class Checker:
                 res = sr1(packet, timeout=self.timeout / len(ports), verbose=0)
 
                 if res is None or not res.haslayer(TCP):
-                    print(f"{threadStr} {Fore.BLACK}[{i}] {ip} is Invalid...{Fore.RESET}")
+                    print(f"{threadStr} {Fore.BLUE}[{i}] {ip} is Invalid...{Fore.RESET}")
                     break
 
                 if res[TCP].flags == "SA":  # SYN-ACK received
